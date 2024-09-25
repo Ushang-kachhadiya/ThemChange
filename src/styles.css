@@ -1,0 +1,20 @@
+:root {
+  --background-color: #fff; /* Default light background */
+  --text-color: #000;       /* Default light text color */
+  --button-color: #007bff;  /* Default light button color */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+button {
+  background-color: var(--button-color);
+  color: var(--text-color);
+  padding: 10px;
+  margin: 10px;
+}
